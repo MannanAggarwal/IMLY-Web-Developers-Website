@@ -1,0 +1,210 @@
+/* Loveleen kaur*/
+
+/*Styling for overall body*/
+body{
+    background-image: url(https://img.freepik.com/free-vector/white-gold-geometric-pattern-background-vector_53876-140726.jpg?w=2000);
+    padding: 0px; 
+    margin: 0px
+
+}
+
+
+
+
+nav{
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+}
+nav>a{
+    margin-right: 30px;
+}
+
+/*Styling for Introdution page*/
+
+img{
+    display: block;
+   margin-left: auto;
+  margin-right: auto;
+    height: 400px;
+    width: 200px;
+}
+
+
+.intro{
+    color:black;
+    font-size: 24pt;
+    text-align: center;
+   
+}
+.mypic{
+    border: solid;
+    border-color: palevioletred;
+}
+
+/*grid styling used for curiculum page*/
+
+.item-1{
+    border: solid;
+    border-color: pink;
+    background-color: rgb(212, 196, 255)
+}
+
+ .c-img{
+    height: 100px;
+    width: 200px;
+ }
+ .filter{
+    font-size: xx-large;
+    padding-left: 10pt;
+    color: rgb(77, 19, 143);
+    text-decoration: underline;
+}
+
+#Curriculum{
+    background-color: rgba(85, 211, 76, 0.768);
+    color: rgb(0, 0, 0);
+  }
+
+
+ .resume{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+ .resume-1{
+    color: black;
+    padding-left: 20pt;
+    font-size: 14pt;
+ }
+.resume-2{
+    border: solid;
+    border-color: aqua;
+    background-color: aliceblue;
+    align-self: center;
+    margin-right: 100pt;
+    font-size: 14pt;
+}
+
+/*Styling for footer of all pages*/
+
+footer{
+    background-color:skyblue;
+    font-style: italic;
+    font-size: 14pt;
+    color: blue;
+    height: 50pt;
+    text-align: right;
+    padding-right: 10pt;
+}
+span{
+    color: antiquewhite;
+    font-size: 14pt;
+    color: blueviolet;
+}/*  web page created by pardeep kaur*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: california-fb;
+    
+  }
+  body {
+  
+    font-family: california-fb;
+  }
+  
+  /*navbar   */
+  .navbar{
+    justify-content: center;
+    display: flex;
+    position: static;
+  background-color: black;
+  
+  }
+  .navbar a{
+    
+    display: flex;
+    margin: 20px ;
+    list-style:none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+  }
+  
+  .navbar a:hover{
+    color: darkgreen;
+  }
+  
+  /* home section */
+ 
+  
+  .main{
+    display: flex; 
+  border: 1px solid;
+  
+  }
+  
+  .headings{
+  
+    font-size: 200%;
+    font-family: california fb ;
+    color:black ;
+    justify-content: space-evenly;
+    display: flex;
+    padding-right: 50%;
+  
+    
+  }
+  img  {
+    float: right; 
+    width: 25%;
+    margin: 10px;
+  }
+  
+   
+  
+   span{
+    color: brown;
+   }
+
+  
+  
+  
+  
+  
+  h1,h2,p,li{
+    color: rgb(11, 11, 11);
+    
+  }
+  
+  .button {
+    color: black;
+    border: black 1px solid;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12pt;
+     
+    
+  }
+  
+  .searchbutton {
+    color: black;
+    border: black 1px solid;
+    cursor: pointer;
+    font-size: 12pt;
+  
+  }
+  
+   
+  
+  
+  
+  

@@ -1,0 +1,179 @@
+body {
+
+    background-color: #eef8ff;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10% 0 10%;
+    background-color: #04060a;
+}
+
+header h1 {
+    color: aqua;
+}
+
+button:hover,
+header a:hover {
+    color: rgb(209, 26, 123);
+}
+
+
+nav {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px;
+}
+
+nav a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    font-size: 25px;
+    color: aqua;
+}
+
+button:hover,
+header a:hover {
+    color: rgb(196, 52, 102);
+}
+
+button {
+    font-size: 17px;
+    padding: 9px 25px;
+    background-color: rgb(29, 205, 211);
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+
+.gridContainer {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.gridContainer h2 {
+    margin-left: 40%;
+    color: #a2d63a;
+}
+
+.gridContainer li {
+    margin-top: 15px;
+    font-style: italic;
+    font-size: large;
+    color: #07080f;
+}
+
+.education {
+    background-color: #ac835e;
+    margin-left: 40px;
+    margin-top: 40px;
+    height: 300px;
+    grid-column: 1/3;
+}
+
+.skills {
+    background-color: #ac835e;
+    margin-right: 40px;
+    margin-top: 40px;
+    height: 300px;
+    grid-column: 3/5;
+}
+
+
+
+.lab3 {
+    background-color: #ac835e;
+    margin-bottom: 40px;
+    margin-left: 40px;
+
+}
+
+.lab3 h3 {
+    margin-top: 50%;
+    margin-left: 40%;
+    font-size: xx-large;
+}
+
+.lab3 a {
+    text-decoration: none;
+    color: #a2d63a;
+
+}
+
+.lab3:hover {
+    background-color: #0eae99;
+
+}
+
+.lab3 a:hover {
+    color: rgb(255, 0, 179)
+}
+
+
+
+.goals {
+    background-color: #ac835e;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 250px;
+    grid-column: 1/3;
+}
+
+.goals li {
+    justify-content: center;
+}
+
+.lab2 {
+
+    background-color: #ac835e;
+    margin-bottom: 50px;
+    margin-right: 50px;
+
+}
+
+.lab2 h3 {
+    margin-top: 50%;
+    margin-left: 40%;
+    font-size: xx-large;
+}
+
+.lab2 a {
+    text-decoration: none;
+    color: #a2d63a;
+}
+
+.lab2:hover {
+    background-color: #00093c;
+}
+
+.lab2 a:hover {
+    color: rgb(255, 0, 179)
+}
+
+footer {
+    margin-top: 0;
+    color: #eef8ff;
+    display: grid;
+    margin-bottom: 0;
+    height: 200%;
+    width: 100%;
+    justify-content: space-evenly;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+}
+
+a:hover {
+    color: rgb(164, 48, 98);
+}

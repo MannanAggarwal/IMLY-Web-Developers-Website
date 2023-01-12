@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Mannan Aggarwal">
+	<title>Original</title>
+	<style>
+		table, tr, th, td{
+			border: 1px solid black;
+		}
+		form textarea{
+			
+			vertical-align: middle;
+		}
+		.form1 label{
+			width: 60px;
+			display: inline-block;
+			text-align: right;
+		}
+	</style>
+</head>
+<body>
+
+	<fieldset>
+		<h1 style="color: green;">Order Form</h1>
+
+	
+
+	<form action="#">
+		<fieldset class="form1">
+			<legend>Basic Information</legend>
+
+		
+		<label for="userName">Name:   </label>
+		<input type="text" id="userName" name="userName" placeholder="Student Name" disabled>
+		<br>
+		<label for="email">Email:   </label>
+		<input type="email" id="email" name="email" required>
+		<br>
+		
+		<label for="address">Address: </label>
+		<textarea name="address" id="address" rows="6" cols="25" required></textarea>
+	
+		<br>
+		<label for="postcode">Postcode: </label>
+		<input type="text" id="postcode" name="postcode" required>
+		
+		</fieldset>
+
+		<br>
+
+		<fieldset>
+			<legend>Product Information</legend>
+
+		<table style="border: 1px black solid;">
+			<tr>
+				<th>Product</th>
+				<th>Part Number</th>
+				<th>Quantity</th>
+				<th>Unit Price</th>
+				<th>Summary</th>
+			</tr>
+			<tr>
+				<td>Box</td>
+				<td>AC100</td>
+				<td>
+					<input type="number" name="q1">
+				</td>
+				<td>$5</td>
+				<td>
+					<input type="number" name="t1">
+				</td>
+			</tr>
+			<tr>
+				<td>Coffee Table</td>
+				<td>AC200</td>
+				<td>
+					<input type="number" name="q1">
+				</td>
+				<td>$100</td>
+				<td>
+					<input type="number" name="t1">
+				</td>
+			</tr>
+			<tr>
+				<td>Chair</td>
+				<td>AC300</td>
+				<td>
+					<input type="number" name="q1">
+				</td>
+				<td>$150</td>
+				<td>
+					<input type="number" name="t1">
+				</td>
+			</tr>
+			<tr>
+				<td>Desk</td>
+				<td>AC400</td>
+				<td>
+					<input type="number" name="q1">
+				</td>
+				<td>$120</td>
+				<td>
+					<input type="number" name="t1">
+				</td>
+			</tr>
+			<tr>
+				<td>Common Table</td>
+				<td>AC500</td>
+				<td>
+					<input type="number" name="q1">
+				</td>
+				<td>$130</td>
+				<td>
+					<input type="number" name="t1">
+				</td>
+			</tr>
+			<tr>
+				<td>Box</td>
+				<td>AC100</td>
+				<td>
+					<input type="number" name="q1">
+				</td>
+				<td>$5</td>
+				<td>
+					<input type="number" name="t1">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4" style="text-align: right; font-weight: bold;">Total: </td>
+				<td>
+					<input type="number" name="t1">
+				</td>
+			</tr>
+		</table>
+		</fieldset>
+
+		<br><br>
+
+		<h3>Credit Card Information</h3>
+
+		<br>
+
+		<label for="cardnumber">Card Number: </label>
+		<input type="number" name="cardnumber" id="cardnumber" placeholder="Enter your Card Number." required>
+
+		<br><br>
+
+		Card Type:<br>
+		<input type="radio" name="cards" value="mastercard"> Mastercard
+		<br>
+		<input type="radio" name="cards" value="visa">Visa
+		<br>
+		<input type="radio" name="cards" value="giftcard">Gift Card
+
+		<br><br>
+
+		<label for="date">Expiry Date: </label>
+		<input type="date" name="date" id="date">
+
+
+		<br><br>
+
+		<label for="d_address">Delivery Address: </label>
+		<textarea name="d_address" rows="6" cols="25" id="d_address"></textarea>
+
+		<br><br>
+
+
+
+
+
+
+
+		<br>
+		<input type="submit" value="Send Order" name="send">
+		<input type="submit" value="Clear Form" name="clear">
+	</form>
+	</fieldset>
+
+</body>
+</html>

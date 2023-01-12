@@ -1,0 +1,114 @@
+body {
+
+    background-color: #eef8ff;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10% 0 10%;
+    background-color: #04060a;
+}
+
+header h1 {
+    color: aqua;
+}
+
+button:hover,
+header a:hover {
+    color: rgb(209, 26, 123);
+}
+
+
+.gridContainer {
+    background-color: antiquewhite;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 60px;
+}
+
+.gridContainer h2 {
+    margin-left: 20%;
+    color: azure;
+    text-align: 10%;
+    margin-top: 15%;
+}
+
+.gridContainer a {
+    margin-top: 15px;
+    margin-left: 50px;
+    font-style: italic;
+    font-size: xx-large;
+    color: azure;
+}
+
+.ceo {
+    background-image: url(for_mannan.jpg);
+    margin-left: 40px;
+    margin-top: 40px;
+    height: 300px;
+    grid-column: 1/3;
+}
+
+.manager {
+    background-image: url(for_me.jpeg);
+    margin-right: 40px;
+    margin-top: 40px;
+    height: 300px;
+    grid-column: 3/5;
+}
+
+
+
+.assistant {
+    background-image: url(for_lovleen.jpeg);
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 300px;
+    grid-column: 3/5;
+}
+
+
+
+
+ 
+
+
+
+
+.ceo:hover{
+    background-color: #0eae99;  
+}
+
+.developer {
+    background-image: url(for_iman.jpg);
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 300px;
+    grid-column: 1/3;
+}
+
+
+footer {
+    margin-top: 0;
+    color: #eef8ff;
+    display: flex;
+    margin-bottom: 0;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+}
+
+
+.copyright p{
+display: flex;
+}

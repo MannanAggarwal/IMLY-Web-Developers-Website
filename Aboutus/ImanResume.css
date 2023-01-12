@@ -1,0 +1,95 @@
+/* Imandeep Singh Sidhu*/
+
+/*Styling for overall body*/
+
+body{
+    background-image: url(background2.jpg);
+    padding: 0px; 
+    margin: 0px
+
+}
+
+/*Styling for header for all pages*/
+
+header{
+    background-color:darkblue;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+
+}
+a{
+    color: azure;
+}
+nav{
+    font-weight: bold;
+    font-size: x-large;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+}
+nav>a{
+    margin-right: 30px;
+}
+
+/*grid styling used for curiculm page*/
+
+.grid{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.grid2{
+   
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-evenly;
+}
+
+.item-1{
+    border: solid;
+    border-color: aqua;
+    background-color: bisque;
+    text-align: center;
+
+}
+.item-2{
+    border: solid;
+    border-color: aqua;
+    background-color: white;
+    text-align: center;
+
+}
+.heading{
+    font-size: 28pt;
+}
+.price{
+    font-size: 22pt;
+}
+
+ .c-img{
+    height: 200px;
+    width: 300px;
+ }
+
+
+/*Styling for footer of all pages*/
+
+footer{
+    background-color: darkblue;
+    font-style: italic;
+    font-size: 14pt;
+    color: blue;
+    height: 50pt;
+    text-align: right;
+    padding-right: 10pt;
+}
+span{
+    color: antiquewhite;
+    font-size: 14pt;
+   
+}
